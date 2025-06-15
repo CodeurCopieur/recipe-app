@@ -1,75 +1,47 @@
-# Nuxt Minimal Starter
+# Application de Recettes avec Nuxt 4 🍳
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Ce projet est une application de recettes construite avec Nuxt 4, basée sur le cours de John Komarnicki. L'application démontre les fonctionnalités essentielles de Nuxt pour créer des applications web modernes.
 
-## Setup
+## 📚 Fonctionnalités
 
-Make sure to install dependencies:
+- 🏠 Pages basées sur le système de fichiers
+- 🎨 Layouts personnalisés
+- 🧩 Composants réutilisables
+- 🔗 Navigation avec NuxtLink
+- 🖼️ Optimisation d'images avec Nuxt Image
+- 📱 Images responsives
+- 📊 Récupération de données (useFetch et useAsyncData)
+- 🔄 Pages dynamiques avec paramètres de route
+- ⚠️ Gestion des erreurs et page d'erreur personnalisée
+- 🔍 SEO optimisé avec useSeoMeta()
+
+## 🚀 Installation
 
 ```bash
-# npm
+# Installation des dépendances
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Développement
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Production
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## 📁 Structure du Projet
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+```
+├── assets/          # Ressources statiques (CSS, images)
+├── components/      # Composants Vue réutilisables
+├── layouts/         # Layouts de l'application
+├── pages/          # Pages de l'application (routage automatique)
+├── public/         # Fichiers publics
+└── server/         # API et routes serveur
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 🛠️ Technologies Utilisées
+
+- Nuxt 4
+- Vue 3
+- Tailwind CSS
+- TypeScript
